@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банковские кредиты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Банковские кредиты</h1>
+    <div class="table">
+        <div class="table-header">
+            <div class="table-cell">Название кредита</div>
+            <div class="table-cell">Ставка (%)</div>
+            <div class="table-cell">Срок (лет)</div>
+            <div class="table-cell"> </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell" data-label="Название кредита">Кредит 1</div>
+            <div class="table-cell" data-label="Ставка (%)">12%</div>
+            <div class="table-cell" data-label="Срок (лет)">5 лет</div>
+            <div class="table-cell">
+                <button class="apply-btn">Оформить заявку</button>
+                <button class="apply-btn-media">
+                    <img class="arrow" src="./img/arrowupright_icon-icons.com_61184.svg" alt="img">
+                </button>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell" data-label="Название кредита">Кредит 2</div>
+            <div class="table-cell" data-label="Ставка (%)">10%</div>
+            <div class="table-cell" data-label="Срок (лет)">3 года</div>
+            <div class="table-cell">
+                <button class="apply-btn">Оформить заявку</button>
+                <button class="apply-btn-media">
+                    <img class="arrow" src="./img/arrowupright_icon-icons.com_61184.svg" alt="img">
+                </button>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell" data-label="Название кредита">Кредит 3</div>
+            <div class="table-cell" data-label="Ставка (%)">8%</div>
+            <div class="table-cell" data-label="Срок (лет)">2 года</div>
+            <div class="table-cell">
+                <button class="apply-btn">Оформить заявку</button>
+                <button class="apply-btn-media">
+                    <img class="arrow" src="./img/arrowupright_icon-icons.com_61184.svg" alt="img">
+                </button>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell" data-label="Название кредита">Кредит 4</div>
+            <div class="table-cell" data-label="Ставка (%)">15%</div>
+            <div class="table-cell" data-label="Срок (лет)">10 лет</div>
+            <div class="table-cell">
+                <button class="apply-btn">Оформить заявку</button>
+                <button class="apply-btn-media">
+                    <img class="arrow" src="./img/arrowupright_icon-icons.com_61184.svg" alt="img">
+                </button>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell" data-label="Название кредита">Кредит 5</div>
+            <div class="table-cell" data-label="Ставка (%)">7%</div>
+            <div class="table-cell" data-label="Срок (лет)">1 год</div>
+            <div class="table-cell">
+                <button class="apply-btn">Оформить заявку</button>
+                <button class="apply-btn-media">
+                    <img class="arrow" src="./img/arrowupright_icon-icons.com_61184.svg" alt="img">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="application-form">
+            <h2>Оформление заявки</h2>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="contact">Контактная информация:</label>
+            <input type="text" id="contact" name="contact" required>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
+
+
